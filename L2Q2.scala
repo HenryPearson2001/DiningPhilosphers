@@ -16,20 +16,37 @@ object PhilsLog{
   type Command = Boolean
   val Pick = true; val Drop = false
 
+  // channel to communicate between the philosophers and the butler
+  val butlerChan = ManyOne[Unit]
+
   val log = new io.threadcso.debug.Log[String](N)
 
   /** A single philosopher. */
   def phil(me: Int, left: ![Command], right: ![Command]) = proc("Phil"+me){
     repeat{
       Think
+      // wait for butler's signal
+      butlerChan?()
       log.add(me, me+" sits"); Pause
       left!Pick; log.add(me, me+" picks up left fork"); Pause
       right!Pick; log.add(me, me+" picks up right fork"); Pause
       log.add(me, me+" eats"); Eat
       left!Drop; log.add(me, me+" drops left fork"); Pause; right!Drop; log.add(me, me+" drops right fork")Pause;
+      // show butler you are leaving
+      butler!()
       log.add(me, me+" leaves")
       if(me == 0) print(".")
     }
+  }
+
+  /** The butler - will send messages to allow philosophers to be seated and receive messages when they get up. */
+  def butler() = proc {
+    // keeps track of the number of seated philosophers
+    var seated = 0
+    serve (
+      butlerChan =?=> { _ => seated = seated - 1 }
+      | ((seated < 4) && butlerChan) =!=> {seated = seated + 1; _} // only allow another philosopher to be seated if fewer than 4 already seated
+    )
   }
 
   /** A single fork. */
@@ -59,7 +76,7 @@ object PhilsLog{
       for (i <- 0 until N) yield
         fork(i, philToRightFork((i+1)%N), philToLeftFork(i))
     )
-    allPhils || allForks
+    allPhils || allForks || butler
   }
 
   /** Run the system. */
