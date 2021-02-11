@@ -17,7 +17,8 @@ object PhilsLog{
   val Pick = true; val Drop = false
 
   // channel to communicate between the philosophers and the butler
-  val butlerChan = ManyOne[Unit]
+  val toButler = ManyOne[Unit]
+  val toPhils = OneMany[Unit]
 
   val log = new io.threadcso.debug.Log[String](N)
 
@@ -26,14 +27,14 @@ object PhilsLog{
     repeat{
       Think
       // wait for butler's signal
-      butlerChan?()
+      toPhils?()
       log.add(me, me+" sits"); Pause
       left!Pick; log.add(me, me+" picks up left fork"); Pause
       right!Pick; log.add(me, me+" picks up right fork"); Pause
       log.add(me, me+" eats"); Eat
-      left!Drop; log.add(me, me+" drops left fork"); Pause; right!Drop; log.add(me, me+" drops right fork")Pause;
+      left!Drop; log.add(me, me+" drops left fork"); Pause; right!Drop; log.add(me, me+" drops right fork"); Pause;
       // show butler you are leaving
-      butler!()
+      toButler!()
       log.add(me, me+" leaves")
       if(me == 0) print(".")
     }
@@ -44,8 +45,8 @@ object PhilsLog{
     // keeps track of the number of seated philosophers
     var seated = 0
     serve (
-      butlerChan =?=> { _ => seated = seated - 1 }
-      | ((seated < 4) && butlerChan) =!=> {seated = seated + 1; _} // only allow another philosopher to be seated if fewer than 4 already seated
+      toButler =?=> { _ => seated = seated - 1 }
+      | ((seated < 4) && toPhils) =!=> {seated = seated + 1 } // only allow another philosopher to be seated if fewer than 4 already seated
     )
   }
 

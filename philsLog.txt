@@ -1,0 +1,553 @@
+1 sits
+0 sits
+4 sits
+3 sits
+1 picks up left fork
+0 picks up left fork
+4 picks up left fork
+3 picks up left fork
+3 picks up right fork
+3 eats
+3 drops left fork
+4 picks up right fork
+4 eats
+3 drops right fork
+4 drops left fork
+3 leaves
+0 picks up right fork
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+4 leaves
+3 sits
+1 picks up right fork
+0 drops right fork
+3 picks up left fork
+1 eats
+1 drops left fork
+0 leaves
+2 picks up right fork
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+1 leaves
+3 picks up right fork
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+3 drops right fork
+4 eats
+1 picks up left fork
+4 drops left fork
+3 leaves
+0 picks up right fork
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+4 leaves
+1 picks up right fork
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+0 leaves
+2 picks up right fork
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+3 picks up right fork
+1 leaves
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+3 drops right fork
+4 eats
+1 picks up left fork
+4 drops left fork
+3 leaves
+0 picks up right fork
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+4 leaves
+1 picks up right fork
+3 sits
+0 drops right fork
+1 eats
+3 picks up left fork
+1 drops left fork
+0 leaves
+2 picks up right fork
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+1 leaves
+3 picks up right fork
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+4 eats
+3 drops right fork
+1 picks up left fork
+4 drops left fork
+3 leaves
+0 picks up right fork
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+4 leaves
+1 picks up right fork
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+0 leaves
+2 picks up right fork
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+1 leaves
+3 picks up right fork
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+4 eats
+3 drops right fork
+1 picks up left fork
+4 drops left fork
+3 leaves
+0 picks up right fork
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+1 picks up right fork
+4 leaves
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+0 leaves
+2 picks up right fork
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+1 leaves
+3 picks up right fork
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+2 leaves
+4 picks up right fork
+1 sits
+4 eats
+3 drops right fork
+1 picks up left fork
+4 drops left fork
+0 picks up right fork
+3 leaves
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+4 leaves
+1 picks up right fork
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+2 picks up right fork
+0 leaves
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+1 leaves
+3 picks up right fork
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+4 eats
+3 drops right fork
+1 picks up left fork
+4 drops left fork
+0 picks up right fork
+3 leaves
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+4 leaves
+3 sits
+0 drops left fork
+1 picks up right fork
+3 picks up left fork
+1 eats
+0 drops right fork
+0 leaves
+4 sits
+1 drops left fork
+2 picks up right fork
+4 picks up left fork
+2 eats
+1 drops right fork
+2 drops left fork
+1 leaves
+0 sits
+3 picks up right fork
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+4 eats
+1 picks up left fork
+3 drops right fork
+4 drops left fork
+0 picks up right fork
+3 leaves
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+4 leaves
+1 picks up right fork
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+0 leaves
+2 picks up right fork
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+3 picks up right fork
+1 leaves
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+2 leaves
+3 drops left fork
+4 picks up right fork
+1 sits
+4 eats
+3 drops right fork
+1 picks up left fork
+4 drops left fork
+3 leaves
+0 picks up right fork
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+1 picks up right fork
+4 leaves
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+2 picks up right fork
+0 leaves
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+3 picks up right fork
+1 leaves
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+3 drops right fork
+4 eats
+1 picks up left fork
+4 drops left fork
+3 leaves
+0 picks up right fork
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+1 picks up right fork
+4 leaves
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+2 picks up right fork
+0 leaves
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+3 picks up right fork
+1 leaves
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+4 eats
+3 drops right fork
+1 picks up left fork
+3 leaves
+4 drops left fork
+2 sits
+0 picks up right fork
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+1 picks up right fork
+4 leaves
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+0 leaves
+2 picks up right fork
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+3 picks up right fork
+1 leaves
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+4 eats
+3 drops right fork
+1 picks up left fork
+4 drops left fork
+3 leaves
+0 picks up right fork
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+4 leaves
+1 picks up right fork
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+0 leaves
+2 picks up right fork
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+3 picks up right fork
+1 leaves
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+3 drops right fork
+4 eats
+1 picks up left fork
+4 drops left fork
+0 picks up right fork
+3 leaves
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+1 picks up right fork
+4 leaves
+3 sits
+0 drops right fork
+1 eats
+3 picks up left fork
+0 leaves
+4 sits
+1 drops left fork
+2 picks up right fork
+4 picks up left fork
+2 eats
+1 drops right fork
+2 drops left fork
+3 picks up right fork
+1 leaves
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+3 drops right fork
+4 eats
+1 picks up left fork
+4 drops left fork
+0 picks up right fork
+3 leaves
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+1 picks up right fork
+4 leaves
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+0 leaves
+2 picks up right fork
+4 sits
+1 drops right fork
+2 eats
+4 picks up left fork
+2 drops left fork
+1 leaves
+3 picks up right fork
+0 sits
+3 eats
+2 drops right fork
+0 picks up left fork
+3 drops left fork
+4 picks up right fork
+2 leaves
+1 sits
+4 eats
+3 drops right fork
+1 picks up left fork
+4 drops left fork
+0 picks up right fork
+3 leaves
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+1 picks up right fork
+4 leaves
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
+1 drops left fork
+2 picks up right fork
+0 leaves
+4 sits
+2 eats
+1 drops right fork
+4 picks up left fork
+2 drops left fork
+3 picks up right fork
+1 leaves
+0 sits
+2 drops right fork
+3 eats
+0 picks up left fork
+2 leaves
+1 sits
+3 drops left fork
+4 picks up right fork
+4 eats
+3 drops right fork
+1 picks up left fork
+4 drops left fork
+0 picks up right fork
+3 leaves
+2 sits
+0 eats
+4 drops right fork
+2 picks up left fork
+0 drops left fork
+1 picks up right fork
+4 leaves
+3 sits
+1 eats
+0 drops right fork
+3 picks up left fork
